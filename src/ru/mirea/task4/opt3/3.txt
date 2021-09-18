@@ -1,0 +1,1 @@
+Метод toString класса Ball перекрыл метод toString класса Object, от которого наследуется Ball
