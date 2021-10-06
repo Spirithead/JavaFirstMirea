@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task9.Highlights">
+   <children>
+      <Button fx:id="buttonZen" layoutX="93.0" layoutY="174.0" mnemonicParsing="false" onAction="#scoreZen" prefHeight="25.0" prefWidth="132.0" text="Zenit" AnchorPane.bottomAnchor="301.0" AnchorPane.leftAnchor="93.0" AnchorPane.rightAnchor="575.0" AnchorPane.topAnchor="174.0">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="buttonSpa" layoutX="560.0" layoutY="174.0" mnemonicParsing="false" onAction="#scoreSpa" prefHeight="25.0" prefWidth="132.0" text="Spartak">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="score" layoutX="374.0" layoutY="187.0" text="0 : 0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lastScored" alignment="CENTER" layoutX="330.0" layoutY="76.0" prefHeight="17.0" prefWidth="132.0" text="Last Scorer: N/A" textAlignment="CENTER" />
+      <Label fx:id="winner" alignment="CENTER" layoutX="316.0" layoutY="272.0" prefHeight="26.0" prefWidth="159.0" text="DRAW" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
