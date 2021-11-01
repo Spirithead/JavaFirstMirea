@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task11.opt3.ChangeController">
+   <children>
+      <TextArea fx:id="input" layoutX="144.0" layoutY="60.0" prefHeight="146.0" prefWidth="311.0" style="-fx-text-fill: BLACK" />
+      <Button fx:id="blue" layoutX="65.0" layoutY="264.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="158.0" text="Blue" />
+      <Button fx:id="lightBlue" layoutX="65.0" layoutY="308.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="158.0" text="LightBlue" />
+      <Button fx:id="muchLighterBlue" layoutX="65.0" layoutY="350.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="158.0" text="MuchLighterBlue" />
+      <Button fx:id="calibri" layoutX="376.0" layoutY="264.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Calibri" onAction="#changeFont"/>
+      <Button fx:id="comic" layoutX="376.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Comic Sans" onAction="#changeFont"/>
+      <Button fx:id="impact" layoutX="376.0" layoutY="350.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Impact" onAction="#changeFont"/>
+   </children>
+</AnchorPane>

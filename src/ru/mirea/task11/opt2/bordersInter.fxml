@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task11.opt2.BordersController">
+   <children>
+      <Rectangle fx:id="north" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="72.0" layoutX="238.0" layoutY="20.0" stroke="TRANSPARENT" strokeType="INSIDE" width="125.0" onMouseEntered="#greetingsNorth" />
+      <Rectangle fx:id="center" arcHeight="5.0" arcWidth="5.0" fill="#e8ff1f" height="124.0" layoutX="238.0" layoutY="138.0" onMouseEntered="#greetingsCenter" stroke="TRANSPARENT" strokeType="INSIDE" width="125.0" />
+      <Rectangle fx:id="south" arcHeight="5.0" arcWidth="5.0" fill="#ee6b19" height="72.0" layoutX="238.0" layoutY="308.0" stroke="TRANSPARENT" strokeType="INSIDE" width="125.0" onMouseEntered="#greetingsSouth"/>
+      <Rectangle fx:id="west" arcHeight="5.0" arcWidth="5.0" fill="#29ff1f" height="124.0" layoutX="93.0" layoutY="138.0" stroke="TRANSPARENT" strokeType="INSIDE" width="71.0" onMouseEntered="#greetingsWest"/>
+      <Rectangle fx:id="east" arcHeight="5.0" arcWidth="5.0" fill="#ff1fe9" height="124.0" layoutX="439.0" layoutY="138.0" stroke="TRANSPARENT" strokeType="INSIDE" width="71.0" onMouseEntered="#greetingsEast"/>
+   </children>
+</AnchorPane>
