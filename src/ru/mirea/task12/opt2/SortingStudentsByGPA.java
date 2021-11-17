@@ -10,7 +10,7 @@ public class SortingStudentsByGPA implements Comparator{
             System.out.print(students[i].toString()+'\n');
         }
 
-        System.out.print("----------------------");
+        System.out.print("----------------------"+'\n');
 
         Comparator.quickSort(students,0, students.length-1);
 
