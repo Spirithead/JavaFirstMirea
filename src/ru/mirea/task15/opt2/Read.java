@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Read {
     public static void main(String[] args) throws IOException {
-        File input=new File("C:\\Users\\huawei\\Desktop","out.txt");
+        File input=new File("C:\\Users\\huawei\\Desktop","ezh.txt");
         FileReader reader=new FileReader(input);
         char[] buffer = new char[64];
         int a=0;
